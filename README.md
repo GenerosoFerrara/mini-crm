@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## 📌 Descrizione
 
 Mini CRM è una piccola applicazione web per la gestione dei clienti, pensata per **imparare e mostrare le basi di un CRUD** (Create, Read, Update, Delete) tra frontend e backend.  
@@ -36,4 +36,4 @@ mini-crm/
 =======
 # mini-crm
 Mini CRM è un piccolo progetto web per la gestione di clienti, realizzato con **HTML, CSS, JavaScript (frontend)** e **PHP/MySQL (backend)**.   Ogni cliente può essere aggiunto tramite un form e viene visualizzato in **card colorate** nel frontend.
->>>>>>> e16b6bfc3fc9375cd521f3a01ab9d5be54d556d6
+
