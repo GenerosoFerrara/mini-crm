@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini CRM</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>Mini CRM - Elenco Clienti</h1>
+
+  <p class="instructions">
+    Premi <strong>Carica Clienti</strong> per visualizzare tutti i clienti nel database.<br>
+    Usa il form sottostante per aggiungere nuovi clienti. Dopo l'inserimento, la lista si aggiornerà automaticamente.
+  </p>
+
+  <button id="loadClients">Carica Clienti</button>
+
+  <div id="clientList" class="cards-container"></div>
+
+  <h2>Aggiungi Cliente</h2>
+  <form id="addClientForm">
+    <input type="text" id="nome" placeholder="Nome" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <button type="submit"><i class="fa fa-plus"></i> Aggiungi Cliente</button>
+  </form>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
